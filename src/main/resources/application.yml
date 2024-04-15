@@ -1,0 +1,9 @@
+spring:
+  config:
+    import: optional:configserver:http://localhost:8888
+  application:
+    name: service-discovery
+server:
+  port: 8761
+
+# Path: gateway/src/main/resources/application.ymlg
